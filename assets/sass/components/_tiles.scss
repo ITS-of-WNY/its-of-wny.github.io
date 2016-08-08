@@ -16,7 +16,7 @@
 		}
 
 		article {
-			@include vendor('align-items', 'center');
+			@include vendor('align-items', 'flex-end');
 			@include vendor('display', 'flex');
 			@include vendor('transition', (
 				'transform 0.25s ease',
@@ -28,6 +28,7 @@
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
+			color: _palette(bg);
 			cursor: default;
 			height: 40vh;
 			max-height: 40em;
@@ -41,6 +42,12 @@
 				width: 60%;
 			}
 
+			&:hover {
+				&:before {
+					opacity: 0.6;
+				}
+			}
+
 			.image {
 				display: none;
 			}
@@ -52,6 +59,8 @@
 
 			h3 {
 				font-size: 1.75em;
+				color: _palette(bg-alt);
+				letter-spacing: 0.04em;
 
 				a {
 					&:hover {
@@ -84,7 +93,7 @@
 			}
 
 			&:after {
-				background-color: transparentize(_palette(bg), 0.75);
+				background-color: transparentize(_palette(bg-alt), 0.75);
 				content: '';
 				display: block;
 				height: 100%;
@@ -93,12 +102,6 @@
 				top: 0;
 				width: 100%;
 				z-index: 1;
-			}
-
-			&:hover {
-				&:before {
-					opacity: 0;
-				}
 			}
 
 			&.is-transitioning {
@@ -117,6 +120,7 @@
 				&:before {
 					background-color: _palette(accent2);
 				}
+				text-shadow: 0px 0px 1px _palette(bg);
 			}
 
 			&:nth-child(6n - 3) {

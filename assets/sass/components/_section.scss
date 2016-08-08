@@ -13,12 +13,20 @@
 	}
 
 	header {
+		> :first-child {
+			&:after {
+				background-color: _palette(fg);
+			}
+		}
 		&.major {
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
 			width: max-content;
-			margin-bottom: _size(element-margin);
+
+			max-width: 100%;
+
+			// margin-bottom: _size(element-margin);
 
 			> :first-child {
 				margin-bottom: 0;
@@ -26,10 +34,11 @@
 
 				&:after {
 					content: '';
-					background-color: _palette(fg-bold);
+					background-color: _palette(bg);
 					display: block;
 					height: 2px;
 					margin: 0.325em 0 0.5em 0;
+					opacity: 0.35;
 					width: 100%;
 				}
 			}
@@ -40,6 +49,8 @@
 				letter-spacing: _font(letter-spacing-alt);
 				margin-bottom: 0;
 				text-transform: uppercase;
+
+				min-height: 3.4em;
 			}
 
 			body.is-ie & {

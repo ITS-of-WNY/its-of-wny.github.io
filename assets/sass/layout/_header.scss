@@ -125,7 +125,8 @@
 						padding-right: 3.875em !important;
 
 						&:before, &:after {
-							right: 2em;
+							right: 1.65em;
+    						top: 0.45em;
 						}
 					}
 				}
@@ -138,7 +139,7 @@
 
 		&.alt {
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
-			@include vendor('transition-delay', '0.75s');
+			// @include vendor('transition-delay', '0.75s');
 			@include vendor('animation', 'none');
 			background-color: transparent;
 			box-shadow: none;

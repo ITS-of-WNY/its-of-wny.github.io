@@ -1402,28 +1402,32 @@ hr {
 section.special, article.special {
   text-align: center; }
 
+header > :first-child:after {
+  background-color: #232323; }
 header.major {
   width: -moz-max-content;
   width: -webkit-max-content;
   width: -ms-max-content;
   width: max-content;
-  margin-bottom: 2em; }
+  max-width: 100%; }
   header.major > :first-child {
     margin-bottom: 0;
     width: calc(100% + 0.5em); }
     header.major > :first-child:after {
       content: '';
-      background-color: #232323;
+      background-color: #FBFBFF;
       display: block;
       height: 2px;
       margin: 0.325em 0 0.5em 0;
+      opacity: 0.35;
       width: 100%; }
   header.major > p {
     font-size: 0.7em;
     font-weight: 500;
     letter-spacing: 0.25em;
     margin-bottom: 0;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    min-height: 3.4em; }
   body.is-ie header.major > :first-child:after {
     max-width: 9em; }
   body.is-ie header.major > h1:after {
@@ -2018,10 +2022,10 @@ button,
   .tiles + * {
     border-top: 0 !important; }
   .tiles article {
-    -moz-align-items: center;
-    -webkit-align-items: center;
-    -ms-align-items: center;
-    align-items: center;
+    -moz-align-items: -moz-flex-end;
+    -webkit-align-items: -webkit-flex-end;
+    -ms-align-items: -ms-flex-end;
+    align-items: flex-end;
     display: -moz-flex;
     display: -webkit-flex;
     display: -ms-flex;
@@ -2034,6 +2038,7 @@ button,
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: #FBFBFF;
     cursor: default;
     height: 40vh;
     max-height: 40em;
@@ -2043,13 +2048,17 @@ button,
     width: 40%; }
     .tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
       width: 60%; }
+    .tiles article:hover:before {
+      opacity: 0.6; }
     .tiles article .image {
       display: none; }
     .tiles article header {
       position: relative;
       z-index: 3; }
     .tiles article h3 {
-      font-size: 1.75em; }
+      font-size: 1.75em;
+      color: #fefefe;
+      letter-spacing: 0.04em; }
       .tiles article h3 a:hover {
         color: inherit !important; }
     .tiles article .link.primary {
@@ -2075,7 +2084,7 @@ button,
       width: 100%;
       z-index: 2; }
     .tiles article:after {
-      background-color: rgba(251, 251, 255, 0.25);
+      background-color: rgba(254, 254, 254, 0.25);
       content: '';
       display: block;
       height: 100%;
@@ -2084,8 +2093,6 @@ button,
       top: 0;
       width: 100%;
       z-index: 1; }
-    .tiles article:hover:before {
-      opacity: 0; }
     .tiles article.is-transitioning {
       -moz-transform: scale(0.95);
       -webkit-transform: scale(0.95);
@@ -2098,8 +2105,10 @@ button,
       opacity: 0; }
     .tiles article:nth-child(6n - 5):before {
       background-color: #EF476F; }
-    .tiles article:nth-child(6n - 4):before {
-      background-color: #FFD166; }
+    .tiles article:nth-child(6n - 4) {
+      text-shadow: 0px 0px 1px #FBFBFF; }
+      .tiles article:nth-child(6n - 4):before {
+        background-color: #FFD166; }
     .tiles article:nth-child(6n - 3):before {
       background-color: #06D6A0; }
     .tiles article:nth-child(6n - 2):before {
@@ -2354,21 +2363,18 @@ button,
         #header nav a[href="#menu"]:last-child {
           padding-right: 3.875em !important; }
           #header nav a[href="#menu"]:last-child:before, #header nav a[href="#menu"]:last-child:after {
-            right: 2em; }
+            right: 1.65em;
+            top: 0.45em; }
   #header.reveal {
     -moz-animation: reveal-header 0.35s ease;
     -webkit-animation: reveal-header 0.35s ease;
     -ms-animation: reveal-header 0.35s ease;
     animation: reveal-header 0.35s ease; }
   #header.alt {
-    -moz-transition: opacity 1.25s ease;
-    -webkit-transition: opacity 1.25s ease;
-    -ms-transition: opacity 1.25s ease;
-    transition: opacity 1.25s ease;
-    -moz-transition-delay: 0.75s;
-    -webkit-transition-delay: 0.75s;
-    -ms-transition-delay: 0.75s;
-    transition-delay: 0.75s;
+    -moz-transition: opacity 0.25s ease;
+    -webkit-transition: opacity 0.25s ease;
+    -ms-transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease;
     -moz-animation: none;
     -webkit-animation: none;
     -ms-animation: none;
@@ -2459,14 +2465,10 @@ button,
   position: relative;
   top: -3.25em; }
   #banner:after {
-    -moz-transition: opacity 1.25s ease;
-    -webkit-transition: opacity 1.25s ease;
-    -ms-transition: opacity 1.25s ease;
-    transition: opacity 1.25s ease;
-    -moz-transition-delay: 0.75s;
-    -webkit-transition-delay: 0.75s;
-    -ms-transition-delay: 0.75s;
-    transition-delay: 0.75s;
+    -moz-transition: opacity 0.25s ease;
+    -webkit-transition: opacity 0.25s ease;
+    -ms-transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease;
     -moz-pointer-events: none;
     -webkit-pointer-events: none;
     -ms-pointer-events: none;

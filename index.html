@@ -21,65 +21,69 @@ layout: default
 <!-- Main -->
 <div id="main">
 
-  <!-- One -->
-  <section id="one" class="tiles">
-    <article>
-      <span class="image">
-        <img src="assets/images/pic01.jpg" alt="" />
-      </span>
-      <header class="major">
-        <h3><a href="landing.html" class="link">Areas Served</a></h3>
-        <p>Ipsum dolor sit amet</p>
-      </header>
-    </article>
-    <article>
-      <span class="image">
-        <img src="assets/images/pic02.jpg" alt="" />
-      </span>
-      <header class="major">
-        <h3><a href="landing.html" class="link">Services and Programs</a></h3>
-        <p>feugiat amet tempus</p>
-      </header>
-    </article>
-    <article>
-      <span class="image">
-        <img src="assets/images/pic03.jpg" alt="" />
-      </span>
-      <header class="major">
-        <h3><a href="landing.html" class="link">Magna</a></h3>
-        <p>Lorem etiam nullam</p>
-      </header>
-    </article>
-    <article>
-      <span class="image">
-        <img src="assets/images/pic04.jpg" alt="" />
-      </span>
-      <header class="major">
-        <h3><a href="landing.html" class="link">Ipsum</a></h3>
-        <p>Nisl sed aliquam</p>
-      </header>
-    </article>
-  </section>
-
-  <!-- Two -->
   <section id="two">
     <div class="inner">
       <header class="major">
-        <h2>Massa libero</h2>
+        <h2>Western New York's best agency serving all your OT, PT, SP, and BBQ needs!</h2>
       </header>
       <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
       <ul class="actions">
         <li><a href="landing.html" class="button next">Learn More</a></li>
       </ul>
-      <hr class="major" style="border-color: #232323" />
+      <!-- <hr class="major" style="border-color: #232323" /> -->
     </div>
   </section>
+
+  <!-- One -->
+  <section id="one" class="tiles">
+    <article>
+      <span class="image">
+        <img src="/assets/images/pic01.jpg" alt="" />
+      </span>
+      <header class="major">
+        <h3><a href="landing.html" class="link">Areas Served</a></h3>
+        <p>From Erie County to somewhere near&nbsp;Rochester</p>
+      </header>
+    </article>
+    <article>
+      <span class="image">
+        <img src="/assets/images/pic02.jpg" alt="" />
+      </span>
+      <header class="major">
+        <h3><a href="landing.html" class="link">Services and Programs</a></h3>
+        <p>OT, PT, Speech pathology, and more</p>
+      </header>
+    </article>
+    <article>
+      <span class="image">
+        <img src="/assets/images/pic03.jpg" alt="" />
+      </span>
+      <header class="major">
+        <h3><a href="landing.html" class="link">Upcoming Events</a></h3>
+        <p>Shakers 'n' Movers, Open Play Groups, and More</p>
+      </header>
+    </article>
+    <article>
+      <span class="image">
+        <img src="/assets/images/pic04.jpg" alt="" />
+      </span>
+      <header class="major">
+        <h3><a href="landing.html" class="link">Careers</a></h3>
+        <p>Join our team today</p>
+      </header>
+    </article>
+  </section>
+
+
   <section id="three">
     <div class="inner">
+      <header class="major">
+        <h2>Recent Updates</h2>
+      </header>
       {% for post in site.posts %}
         <article>
-          <header class="major">
-            <h2><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h2>
+          <header>
+            <h3><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h3>
           </header>
           <p>{{ post.date | date_to_string }}</p>
           <p>{{ post.content }}</p>
