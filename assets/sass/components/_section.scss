@@ -68,6 +68,14 @@
 			}
 		}
 
+		@include breakpoint(large) {
+			&.major {
+				> p {
+					font-size: 0.8em;
+				}
+			}
+		}
+
 		@include breakpoint(small) {
 			&.major {
 				> p {

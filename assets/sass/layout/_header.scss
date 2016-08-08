@@ -82,7 +82,7 @@
 				font-size: 0.8em;
 				height: inherit;
 				line-height: inherit;
-				padding: 0 0.75em;
+				padding: 0.5em 0.75em;
 				position: relative;
 				vertical-align: middle;
 
@@ -178,6 +178,7 @@
 				a {
 					&[href="#menu"] {
 						padding-right: 4em !important;
+						padding-top: 0.5em;
 
 						&:last-child {
 							padding-right: 4.5em !important;

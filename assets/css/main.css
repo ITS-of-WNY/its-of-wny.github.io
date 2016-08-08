@@ -1432,6 +1432,9 @@ header.major {
     max-width: 9em; }
   body.is-ie header.major > h1:after {
     max-width: 100% !important; }
+@media screen and (max-width: 1280px) {
+  header.major > p {
+    font-size: 0.8em; } }
 @media screen and (max-width: 736px) {
   header.major > p br {
     display: none; } }
@@ -2330,7 +2333,7 @@ button,
       font-size: 0.8em;
       height: inherit;
       line-height: inherit;
-      padding: 0 0.75em;
+      padding: 0.5em 0.75em;
       position: relative;
       vertical-align: middle; }
       #header nav a:last-child {
@@ -2403,7 +2406,8 @@ button,
         padding-right: 4.25em !important; } }
   @media screen and (max-width: 1280px) {
     #header nav a[href="#menu"] {
-      padding-right: 4em !important; }
+      padding-right: 4em !important;
+      padding-top: 0.5em; }
       #header nav a[href="#menu"]:last-child {
         padding-right: 4.5em !important; } }
   @media screen and (max-width: 736px) {
