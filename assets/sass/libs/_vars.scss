@@ -31,17 +31,17 @@
 // Palette.
 	$palette: (
 		bg:					#FBFBFF,
-		bg-alt:				#fefefe,
-		fg:					#232323,
-		fg-bold:			#232323,
+		bg-alt:				#fefefe,solid 1px rgba(0, 0, 10, 0.16)
+		fg:					#333,
+		fg-bold:			#333,
 		fg-light:			rgba(244,244,255,0.2),
-		border:				rgba(212,212,255,0.1),
-		border-bg:			rgba(212,212,255,0.035),
+		border:				rgba(0, 0, 10, 0.15),
+		border-bg:			rgba(0, 0, 10, 0.035),
 		highlight:			#01BAEF, //#9700ff,
 		accent1:			#EF476F,
 		accent2:			#FFD166,
 		accent3:			#06D6A0,
-		accent4:			#118AB2,
-		accent5:			#073B4C,
+		accent4:			#a27abd,
+		accent5:			#118AB2,
 		accent6:			#87c5a4
 	);

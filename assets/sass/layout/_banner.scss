@@ -28,7 +28,7 @@
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
 			// @include vendor('transition-delay', '0.75s');
 			@include vendor('pointer-events', 'none');
-			background-color: _palette(bg);
+			background-color: _palette(bg-alt);
 			content: '';
 			display: block;
 			height: 100%;
@@ -90,6 +90,7 @@
 					font-size: 0.7em;
 					font-weight: _font(weight-bold);
 					letter-spacing: _font(letter-spacing-alt);
+					margin: 0;
 					text-transform: uppercase;
 				}
 			}

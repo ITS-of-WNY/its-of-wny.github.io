@@ -76,3 +76,10 @@
 	@import 'layout/footer';
 	@import 'layout/wrapper';
 	@import 'layout/menu';
+	@import 'layout/about';
+
+.expanded-info {
+	hr {
+		margin-top: 0;
+	}
+}

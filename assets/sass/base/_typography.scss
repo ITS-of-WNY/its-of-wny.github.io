@@ -158,6 +158,20 @@
 		&.major {
 			margin: (_size(element-margin) * 1.5) 0;
 		}
+
+		&.colorful {
+			background: #ef476f;
+		    background: -moz-linear-gradient(left, #ef476f 0%, #ffd166 33%, #06d6a0 66%, #118ab2 100%);
+		    background: -webkit-linear-gradient(left, #ef476f 0%,#ffd166 33%,#06d6a0 66%,#118ab2 100%);
+		    background: linear-gradient(to right, #ef476f 0%,#ffd166 33%,#06d6a0 66%,#118ab2 100%);
+		    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef476f', endColorstr='#118ab2',GradientType=1 );
+		    height: 4px;
+		    opacity: 0.25;
+		}
+		&.thick {
+			height: 2px;
+			background: #333;
+		}
 	}
 
 	.align-left {

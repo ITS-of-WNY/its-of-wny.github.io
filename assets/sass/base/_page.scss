@@ -36,3 +36,16 @@
 			}
 
 	}
+
+	.right {
+		float: right;
+	}
+	.left {
+		float: left;
+	}
+	.clearfix {
+		&, &:after, &:before {
+			clear: both;
+			float: none;
+		}
+	}

@@ -7,6 +7,7 @@
 /* Section/Article */
 
 	section, article {
+		clear: both;
 		&.special {
 			text-align: center;
 		}

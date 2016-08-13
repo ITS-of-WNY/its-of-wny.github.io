@@ -133,8 +133,22 @@
 			}
 		}
 
+		strong {
+			@include vendor('transition', 'opacity 0.1s ease');
+		}
+
+		&.reveal.alt {
+			strong {
+				opacity: 1;
+			}
+		}
+
 		&.reveal {
 			@include vendor('animation', 'reveal-header 0.35s ease');
+
+			strong {
+				opacity: 0;
+			}
 		}
 
 		&.alt {

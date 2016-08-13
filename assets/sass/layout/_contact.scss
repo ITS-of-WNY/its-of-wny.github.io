@@ -9,11 +9,16 @@
 	#contact {
 		border-bottom: solid 1px _palette(border);
 		overflow-x: hidden;
-		background: #0B4F6C;
+		background: _palette(accent5);
 		color: #fff;
 
 		* {
 			color: #fff !important;
+		}
+
+		// disable horizontal scaling
+		textarea {
+			resize: vertical;
 		}
 
 		.icon.alt:before {
