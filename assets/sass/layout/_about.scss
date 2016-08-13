@@ -29,3 +29,32 @@
 		}
 	}
 }
+#services {
+	.row.expanded-info {
+		&:nth-child(1) {
+			h3 {
+				border-bottom: 2px solid #EF476F;
+			}
+		}
+		&:nth-child(3) {
+			h3 {
+				border-bottom: 2px solid #FFD166;
+			}
+		}
+		&:nth-child(5) {
+			h3 {
+				border-bottom: 2px solid #06D6A0;
+			}
+		}
+		&:nth-child(7) {
+			h3 {
+				border-bottom: 2px solid #118AB2;
+			}
+		}
+		&:nth-child(9) {
+			h3 {
+				border-bottom: 2px solid #a27abd;
+			}
+		}
+	}
+}

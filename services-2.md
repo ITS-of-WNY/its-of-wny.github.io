@@ -1,45 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>Integrated Therapy Services  - Services and Programs</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="/assets/css/main.css" />
-	<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
-	<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
-</head>
-<body>
-  <div id="wrapper">
-  	<!-- Header -->
-<header id="header" class="alt">
-	<a href="/" class="logo">
-		<img src="/assets/images/logo.png" /><strong>ITS of WNY, OT/PT/SLP, PLLC</strong>
-	</a>
-	<nav>
-		<a href="#menu">Menu</a>
-	</nav>
-</header>
+---
+layout: default
+title: Services and Programs
+---
 
-<!-- Menu -->
-<nav id="menu">
-	<ul class="links">
-		<li><a href="/">Home</a></li>
-		<li><a href="/about">About ITS</a></li>
-		<li><a href="/services">Services and Programs</a></li>
-		<li><a href="/areas">Areas Served</a></li>
-		<li><a href="/events">Upcoming Events</a></li>
-		<li><a href="/careers">Careers</a></li>
-	</ul>
-	<ul class="actions vertical">
-		<li><a href="#" class="button special fit">Contact Us</a></li>
-		<!-- <li><a href="#" class="button fit">Log In</a></li> -->
-	</ul>
-</nav>
-
-
-    <!-- Main -->
+<!-- Main -->
 <div id="main">
   <section id="two">
   <!-- short descriptions -->
@@ -115,22 +79,32 @@
       <div class="row expanded-info" id="preschool">
         <div class="4u 12u$(small)">
           <h3>Preschool Services</h3>
+        </div>
+        <div class="8u 12u$(small)">
+          <h4>At a Glance</h4>
           <div class="row">
-            <div class="12u$">
+            <div class="6u 12u$(small)">
               <ul class="alt">
                 <li>For children ages 3 &ndash; 5</li>
                 <li>Provided in Erie, Genesee, and Wyoming Counties</li>
                 <li>Requires school district approval</li>
+              </ul>
+            </div>
+            <div class="6u 12u$(small)">
+              <ul class="alt">
                 <li>Follows the school calendar of each district</li>
                 <li>Services take place in the child's school</li>
               </ul>
             </div>
           </div>
-        </div>
-        <div class="8u 12u$(small)">
-          <br />
+
+          <hr />
+          <h4>About</h4>
+
           <p>ITS of WNY holds contracts with Genesee, Erie and Wyoming Counties to provide OT, PT and speech services for children aged 3-5, who have been approved by their local school district's committee on preschool education.</p>
+
           <p>Services are delivered during the school year,  follow the school calendar of each district, and are designed to support the child's educational program. Services take place in a child's home, nursery school, childcare center,or universal pre-K classroom, as deemed appropriate by the child's committee on preschool education.</p>
+
           <p>ITS of WNY therapists are also available to provide extended school year services, if approved by the school district.</p>
         </div>
       </div>
@@ -143,18 +117,26 @@
       <div class="row expanded-info" id="school">
         <div class="4u 12u$(small)">
           <h3>School-based Services</h3>
+        </div>
+        <div class="8u 12u$(small)">
+          <h4>At a Glance</h4>
           <div class="row">
-            <div class="12u$">
+            <div class="6u 12u$(small)">
               <ul class="alt">
                 <li>Provided in Genesee, Orleans, Erie, Wyoming, and Livingston counties</li>
                 <li>Available in 15 districts</li>
                 <li>Services take place in the child's school</li>
               </ul>
             </div>
+            <div class="6u 12u$(small)">
+              <ul class="alt">
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="8u 12u$(small)">
-          <br />
+
+          <hr />
+          <h4>About</h4>
+
           <p>ITS of WNY holds more than 15 school district contracts in a large geograghic area, including schools operating in Genesee, Orleans, Erie, Wyoming, and Livingston Counties. Our therapists work within each school building alongside district personnel in order to collaborate with other professionals while providing quality services to students in their home districts.</p>
         </div>
       </div>
@@ -165,8 +147,11 @@
       <div class="row expanded-info" id="other">
         <div class="4u 12u$(small)">
           <h3>Other Services</h3>
+        </div>
+        <div class="8u 12u$(small)">
+          <h4>At a Glance</h4>
           <div class="row">
-            <div class="12u$">
+            <div class="6u 12u$(small)">
               <ul class="alt">
                 <li>Short-term staffing available</li>
                 <li>Provides in-service training</li>
@@ -174,9 +159,8 @@
               </ul>
             </div>
           </div>
-        </div>
-        <div class="8u 12u$(small)">
-          <br />
+          <hr />
+          <h4>About</h4>
           <p>ITS of WNY has professionals available for short-term projects, including staffing for kindergarten screenings in local schools, performing program and related service audits when requested by district administrators, or providing in-service training to local childcare centers and special interest groups. Our experienced staff...</p>
         </div>
       </div>
@@ -188,8 +172,11 @@
       <div class="row expanded-info" id="play">
         <div class="4u 12u$(small)">
           <h3>Play Groups</h3>
+        </div>
+        <div class="8u 12u$(small)">
+          <h4>At a Glance</h4>
           <div class="row">
-            <div class="12u$">
+            <div class="6u 12u$(small)">
               <ul class="alt">
                 <li>Meets Weekly</li>
                 <li>Clients only</li>
@@ -197,92 +184,15 @@
               </ul>
             </div>
           </div>
-        </div>
-        <div class="8u 12u$(small)">
-          <br />
+
+          <h4>About</h4>
           <p>Weekly parent/child groups for those children and their families who may benefit from services that take place in a group setting alongside peers. These groups are held at our office or at a nearby neighborhood or community site.</p>
         </div>
       </div>
       <hr class="major" />
 <!-- end other services -->
-      <a href="/areas" class="button next right">Areas Served</a>
+      <a href="/careers" class="button next right">Areas Served</a>
       <div class="clearfix"></div>
     </div>
   </section>
 </div>
-
-
-  	<section id="contact">
-	<div class="inner">
-		<section>
-			<h2>Contact Us</h2>
-			<form method="post" action="#">
-				<div class="field half first">
-					<label for="name">Name</label>
-					<input type="text" name="name" id="name" />
-				</div>
-				<div class="field half">
-					<label for="email">Email</label>
-					<input type="text" name="email" id="email" />
-				</div>
-				<div class="field">
-					<label for="message">Message</label>
-					<textarea name="message" id="message" rows="6"></textarea>
-				</div>
-				<ul class="actions">
-					<li><input type="submit" value="Send Message" class="special" /></li>
-					<li><input type="reset" value="Clear" /></li>
-				</ul>
-			</form>
-		</section>
-		<section class="split">
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-envelope"></span>
-					<h3>Email</h3>
-					<strong>General</strong><br />
-					<a href="mailto:info@integratedtherapy.org">info@integratedtherapy.org</a><br /><br />
-					<strong>Service Information</strong><br />
-					<a href="mailto:info@integratedtherapy.org">info+services@integratedtherapy.org</a><br /><br />
-					<strong>Play Group Information</strong><br />
-					<a href="mailto:info@integratedtherapy.org">info+playgroup@integratedtherapy.org</a>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
-					<span><a href="tel:+15853431840">(585) 343-1840</a></span>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
-					<span><a href="https://goo.gl/maps/UV3pho822uz" target="_blank">25 Liberty St #5<br />
-					Batavia, NY 14020</a></span>
-				</div>
-			</section>
-		</section>
-	</div>
-</section>
-
-<!-- Footer -->
-<footer id="footer">
-	<div class="inner">
-		<ul class="copyright">
-			<li>&copy; Integrated Therapy Services</li>
-		</ul>
-	</div>
-</footer>
-  </div>
-
-  <script src="/assets/js/jquery.min.js"></script>
-  <script src="/assets/js/jquery.scrolly.min.js"></script>
-  <script src="/assets/js/jquery.scrollex.min.js"></script>
-  <script src="/assets/js/skel.min.js"></script>
-  <script src="/assets/js/util.js"></script>
-  <!--[if lte IE 8]><script src="/assets/js/ie/respond.min.js"></script><![endif]-->
-  <script src="/assets/js/main.js"></script>
-</body>
-</html>

@@ -2892,6 +2892,17 @@ body.is-menu-visible #menu {
 #services .row > div:nth-child(5) h3 {
   border-bottom: 2px solid #a27abd; }
 
+#services .row.expanded-info:nth-child(1) h3 {
+  border-bottom: 2px solid #EF476F; }
+#services .row.expanded-info:nth-child(3) h3 {
+  border-bottom: 2px solid #FFD166; }
+#services .row.expanded-info:nth-child(5) h3 {
+  border-bottom: 2px solid #06D6A0; }
+#services .row.expanded-info:nth-child(7) h3 {
+  border-bottom: 2px solid #118AB2; }
+#services .row.expanded-info:nth-child(9) h3 {
+  border-bottom: 2px solid #a27abd; }
+
 .expanded-info hr {
   margin-top: 0; }
 
