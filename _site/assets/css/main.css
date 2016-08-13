@@ -2906,4 +2906,8 @@ body.is-menu-visible #menu {
 .expanded-info hr {
   margin-top: 0; }
 
+.areas-table th:first-child ~ th,
+.areas-table td:first-child ~ td {
+  text-align: center; }
+
 /*# sourceMappingURL=main.css.map */

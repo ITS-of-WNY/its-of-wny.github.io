@@ -18,7 +18,7 @@ title: About Us
       <hr class="major" />
       <div class="boxx">
         <p>
-          Interested in learning more about our services?
+          Interested in learning more about the services we offer?
           <div><a href="/services" class="button next">Services and Programs</a></div>
         </p>
       </div>

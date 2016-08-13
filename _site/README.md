@@ -29,3 +29,5 @@ Need:
 - little bit more for the history blurb (talk on phone)
 - should fax be listed?
 - what's the age range? email said birth to 21, another said birth to 2, one of your services is offered to 3-5, ....
+- need calendar of events (just the weekly schedule is fine too)
+- hours of operation

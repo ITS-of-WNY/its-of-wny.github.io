@@ -83,3 +83,10 @@
 		margin-top: 0;
 	}
 }
+
+.areas-table {
+	th:first-child ~ th,
+	td:first-child ~ td {
+		text-align: center;
+	}
+}
