@@ -6,20 +6,16 @@ title: Services and Programs
 <!-- Main -->
 <div id="main">
   <section id="two">
-    <div class="inner">
-      <header class="major">
-        <h2>Our services and programs are pretty dope.</h2>
-      </header>
-      <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-      <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-      <ul class="actions">
-        <li><a href="/careers" class="button next">Contact</a></li>
-      </ul>
-    </div>
-  </section>
-  <section id="two">
   <!-- short descriptions -->
     <div class="inner" id="services">
+      <div class="row">
+        <div class="12u$">
+          <header class="major">
+            <h2>Our services and programs are pretty dope.</h2>
+          </header>
+          <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.</p>
+        </div>
+      </div>
       <div class="row">
         <div class="6u 12u$(small)">
           <h3>Early Intervention</h3>
@@ -27,20 +23,20 @@ title: Services and Programs
         </div>
         <div class="6u$ 12u$(small)">
           <h3>Preschool Services</h3>
-          <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor.</p>
+          <p>In arcu accumsan arcu adipiscing accumsan orci ac. Felis id enim aliquet. Accumsan ac integer lobortis commodo ornare aliquet accumsan erat tempus amet porttitor. <a href="#preschool" class="scrolly">Learn More &rarr;</a></p>
         </div>
         <!-- Break -->
         <div class="4u 12u$(medium)">
           <h3>School-based services</h3>
-          <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet.</p>
+          <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. <a href="#school" class="scrolly">Learn More &rarr;</a></p>
         </div>
         <div class="4u 12u$(medium)">
           <h3>Other services</h3>
-          <p>Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet.</p>
+          <p>Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. <a href="#other" class="scrolly">Learn More &rarr;</a></p>
         </div>
         <div class="4u$ 12u$(medium)">
           <h3>Play Groups</h3>
-          <p>Give your child a chance to play with friends! Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet.</p>
+          <p>Give your child a chance to play with friends! Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. <a href="#play" class="scrolly">Learn More &rarr;</a></p>
         </div>
       </div>
     </div>
@@ -86,7 +82,7 @@ title: Services and Programs
 <!-- end ei -->
 
 <!-- preschool services -->
-      <div class="row expanded-info" id="ei">
+      <div class="row expanded-info" id="preschool">
         <h3 class="4u 12u$(small)">Preschool Services</h3>
         <div class="8u 12u$(small)">
           <h4>At a Glance</h4>
@@ -122,7 +118,7 @@ title: Services and Programs
 
 
 <!-- school services -->
-      <div class="row expanded-info" id="ei">
+      <div class="row expanded-info" id="school">
         <h3 class="4u 12u$(small)">School-based Services</h3>
         <div class="8u 12u$(small)">
           <h4>At a Glance</h4>
@@ -150,7 +146,7 @@ title: Services and Programs
 <!-- end school services -->
 
 <!-- other services -->
-      <div class="row expanded-info" id="ei">
+      <div class="row expanded-info" id="other">
         <h3 class="4u 12u$(small)">Other Services</h3>
         <div class="8u 12u$(small)">
           <h4>At a Glance</h4>
@@ -173,7 +169,7 @@ title: Services and Programs
 
 
 <!-- other services -->
-      <div class="row expanded-info" id="ei">
+      <div class="row expanded-info" id="play">
         <h3 class="4u 12u$(small)">Play Groups</h3>
         <div class="8u 12u$(small)">
           <h4>At a Glance</h4>
@@ -185,15 +181,9 @@ title: Services and Programs
                 <li>Held in-office or at nearby site.</li>
               </ul>
             </div>
-            <!-- <div class="6u 12u$(small)">
-              <ul class="alt">
-                <li>Dolor etiam magna etiam.</li>
-                <li>Sagittis lorem eleifend.</li>
-                <li>Felis feugiat viverra.</li>
-              </ul>
-            </div> -->
           </div>
 
+          <h4>About</h4>
           <p>Weekly parent/child groups for those children and their families who may benefit from services that take place in a group setting alongside peers. These groups are held at our office or at a nearby neighborhood or community site.</p>
         </div>
       </div>

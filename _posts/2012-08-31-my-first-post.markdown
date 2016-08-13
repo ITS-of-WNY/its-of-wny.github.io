@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My First Post"
+title: "The First Post"
 ---
 
-This is my first post!  Don't I rule?
+This is a news post! You can post about an upcoming or past event, a playgroup, or something industry-related. This entices people to keep coming back to your site and stay interested in what you're doing.
