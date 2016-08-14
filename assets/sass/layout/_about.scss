@@ -2,26 +2,41 @@
 	.row {
 		& > div {
 			&:nth-child(1) {
+				a {
+					color: darken(#EF476F, 15);
+				}
 				h3 {
 					border-bottom: 2px solid #EF476F;
 				}
 			}
 			&:nth-child(2) {
+				a {
+					color: darken(#FFD166, 25);
+				}
 				h3 {
 					border-bottom: 2px solid #FFD166;
 				}
 			}
 			&:nth-child(3) {
+				a {
+					color: darken(#06D6A0, 15);
+				}
 				h3 {
 					border-bottom: 2px solid #06D6A0;
 				}
 			}
 			&:nth-child(4) {
+				a {
+					color: darken(#118AB2, 5);
+				}
 				h3 {
 					border-bottom: 2px solid #118AB2;
 				}
 			}
 			&:nth-child(5) {
+				a {
+					color: darken(#a27abd, 5);
+				}
 				h3 {
 					border-bottom: 2px solid #a27abd;
 				}
@@ -32,26 +47,41 @@
 #services {
 	.row.expanded-info {
 		&:nth-child(1) {
+			a {
+				color: #EF476F;
+			}
 			h3 {
 				border-bottom: 2px solid #EF476F;
 			}
 		}
 		&:nth-child(3) {
+			a {
+				color: #FFD166;
+			}
 			h3 {
 				border-bottom: 2px solid #FFD166;
 			}
 		}
 		&:nth-child(5) {
+			a {
+				color: #06D6A0;
+			}
 			h3 {
 				border-bottom: 2px solid #06D6A0;
 			}
 		}
 		&:nth-child(7) {
+			a {
+				color: #118AB2;
+			}
 			h3 {
 				border-bottom: 2px solid #118AB2;
 			}
 		}
 		&:nth-child(9) {
+			a {
+				color: #a27abd;
+			}
 			h3 {
 				border-bottom: 2px solid #a27abd;
 			}
