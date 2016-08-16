@@ -19,6 +19,7 @@
 		// disable horizontal scaling
 		textarea {
 			resize: vertical;
+			min-height: 27em;
 		}
 
 		.icon.alt:before {
@@ -67,6 +68,10 @@
 		}
 
 		@include breakpoint(medium) {
+			textarea {
+				min-height: 0;
+			}
+
 			> .inner {
 				display: block;
 

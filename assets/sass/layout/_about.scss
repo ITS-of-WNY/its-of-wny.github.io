@@ -1,4 +1,12 @@
 #services {
+	a[href="#services"] {
+		float: right;
+
+		@include breakpoint(small) {
+			float: none;
+		}
+	}
+
 	.row {
 		& > div {
 			&:nth-child(1) {
@@ -8,6 +16,9 @@
 				h3 {
 					border-bottom: 2px solid #EF476F;
 				}
+				.button {
+					box-shadow: inset 0 0 0 2px #EF476F;
+				}
 			}
 			&:nth-child(2) {
 				a {
@@ -15,6 +26,9 @@
 				}
 				h3 {
 					border-bottom: 2px solid #FFD166;
+				}
+				.button {
+					box-shadow: inset 0 0 0 2px #FFD166;
 				}
 			}
 			&:nth-child(3) {
@@ -24,6 +38,9 @@
 				h3 {
 					border-bottom: 2px solid #06D6A0;
 				}
+				.button {
+					box-shadow: inset 0 0 0 2px #06D6A0;
+				}
 			}
 			&:nth-child(4) {
 				a {
@@ -31,6 +48,9 @@
 				}
 				h3 {
 					border-bottom: 2px solid #118AB2;
+				}
+				.button {
+					box-shadow: inset 0 0 0 2px #118AB2;
 				}
 			}
 			&:nth-child(5) {
@@ -40,6 +60,10 @@
 				h3 {
 					border-bottom: 2px solid #a27abd;
 				}
+				.button {
+					box-shadow: inset 0 0 0 2px #a27abd;
+					color: darken(#a27abd, 10);
+				}
 			}
 		}
 	}
@@ -48,42 +72,58 @@
 	.row.expanded-info {
 		&:nth-child(1) {
 			a {
-				color: #EF476F;
+				color: darken(#EF476F, 15);
 			}
 			h3 {
 				border-bottom: 2px solid #EF476F;
 			}
+			.button {
+				box-shadow: inset 0 0 0 2px #EF476F;
+			}
 		}
 		&:nth-child(3) {
 			a {
-				color: #FFD166;
+				color: darken(#FFD166, 25);
 			}
 			h3 {
 				border-bottom: 2px solid #FFD166;
 			}
+			.button {
+				box-shadow: inset 0 0 0 2px #FFD166;
+			}
 		}
 		&:nth-child(5) {
 			a {
-				color: #06D6A0;
+				color: darken(#06D6A0, 15);
 			}
 			h3 {
 				border-bottom: 2px solid #06D6A0;
 			}
+			.button {
+				box-shadow: inset 0 0 0 2px #06D6A0;
+			}
 		}
 		&:nth-child(7) {
 			a {
-				color: #118AB2;
+				color: darken(#118AB2, 5);
 			}
 			h3 {
 				border-bottom: 2px solid #118AB2;
 			}
+			.button {
+				box-shadow: inset 0 0 0 2px #118AB2;
+			}
 		}
 		&:nth-child(9) {
 			a {
-				color: #a27abd;
+				color: darken(#a27abd, 5);
 			}
 			h3 {
 				border-bottom: 2px solid #a27abd;
+			}
+			.button {
+				box-shadow: inset 0 0 0 2px #a27abd;
+				color: darken(#a27abd, 10);
 			}
 		}
 	}
