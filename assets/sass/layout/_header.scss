@@ -30,6 +30,7 @@
 
 		.logo {
 			border: 0;
+			opacity: 0;
 			display: inline-block;
 			font-size: 0.8em;
 			height: inherit;
@@ -135,6 +136,13 @@
 
 			strong {
 				opacity: 0;
+			}
+
+			&:not(.alt) {
+				.logo,
+				strong {
+					opacity: 1;
+				}
 			}
 		}
 

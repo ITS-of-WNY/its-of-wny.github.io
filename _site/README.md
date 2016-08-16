@@ -35,11 +35,11 @@ Need:
 ✓ info+jobs@integratedtherapy.org
 ✓ back to top button on services
 
-- adjust hero image sizing
-- hide mini ITS when nav is not stuck
+✓ adjust hero image sizing
+✓ hide mini ITS when nav is not stuck
 - splash should use bigger version of logo
-- address the address on the header (haha)
-- `Careers` -> `Employment opportunities`
+- address the address on the header
+✓ `Careers` -> `Employment opportunities`
 
 * ask how many posts they want shown on the page at once
 

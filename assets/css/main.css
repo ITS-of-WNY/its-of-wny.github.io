@@ -2317,6 +2317,7 @@ button,
   z-index: 10000; }
   #header .logo {
     border: 0;
+    opacity: 0;
     display: inline-block;
     font-size: 0.8em;
     height: inherit;
@@ -2406,6 +2407,9 @@ button,
     animation: reveal-header 0.35s ease; }
     #header.reveal strong {
       opacity: 0; }
+    #header.reveal:not(.alt) .logo,
+    #header.reveal:not(.alt) strong {
+      opacity: 1; }
   #header.alt {
     -moz-transition: opacity 0.25s ease;
     -webkit-transition: opacity 0.25s ease;
@@ -2491,8 +2495,8 @@ button,
   padding: 6em 0 2em 0 ;
   background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
   border-bottom: 0 !important;
   cursor: default;
   height: 60vh;
