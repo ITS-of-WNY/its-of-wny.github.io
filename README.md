@@ -29,13 +29,11 @@ Need:
 - little bit more for the history blurb (talk on phone)
 - what's the age range? email said birth to 21, another said birth to 2, one of your services is offered to 3-5, ....
 - need calendar of events (just the weekly schedule is fine too)
-- hours of operation
-
+✓ hours of operation
 ✓ change upcoming events link to 'about its'
 ✓ fax
 ✓ info+jobs@integratedtherapy.org
-- back to top button on services
-
+✓ back to top button on services
 
 - adjust hero image sizing
 - hide mini ITS when nav is not stuck

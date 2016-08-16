@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Careers
+title: Employment Opportunities
+permalink: /jobs
 ---
 
 <!-- Main -->
