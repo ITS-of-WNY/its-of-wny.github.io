@@ -85,8 +85,43 @@
 }
 
 .areas-table {
+	th {
+		padding: 0.35em 0.75em;
+	}
+
 	th:first-child ~ th,
 	td:first-child ~ td {
 		text-align: center;
+	}
+
+	$col1: _palette(accent5);
+	$col2: _palette(accent4);
+	$col3: _palette(accent6);
+
+	$headerOp: 0.4;
+	$bgOp: 0.1;
+
+	th:first-child ~ th {
+		&:nth-child(2) {
+			background: rgba($col1, $headerOp);
+		}
+		&:nth-child(3) {
+			background: rgba($col2, $headerOp);
+		}
+		&:nth-child(4) {
+			background: rgba($col3, $headerOp);
+		}
+	}
+
+	td:first-child ~ td {
+		&:nth-child(2) {
+			background: rgba($col1, $bgOp);
+		}
+		&:nth-child(3) {
+			background: rgba($col2, $bgOp);
+		}
+		&:nth-child(4) {
+			background: rgba($col3, $bgOp);
+		}
 	}
 }
