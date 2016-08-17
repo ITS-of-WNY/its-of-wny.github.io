@@ -349,14 +349,30 @@
 
 	});
 
+	var showError = function(message) {
+		var $box = $('form[name="contact-form"]').find('.box.error');
+
+		if (!$box.length){
+			$box = $('<div class="box error"></div>');
+			$('form[name="contact-form"]').append($box);
+		}
+
+		if (!message) {
+			$box.empty().remove();
+		} else {
+			$box.text(message).show();
+		}
+	};
+
 	$('form[name="contact-form"]').on('submit', function(evt){
 		evt && evt.preventDefault && evt.preventDefault();
 
 		// google captcha
 		if (!grecaptcha || !grecaptcha.getResponse()){
-			alert('you gotta click the robot thing');
+			showError('You must prove you\'re not a robot.');
 			return;
 		}
+		showError();
 
 		var $form = $(evt.currentTarget),
 			formData = {},
@@ -365,6 +381,18 @@
 		serializedForm.map(function(data){
 			formData[data.name] = data.value;
 		});
-	});
 
+		var validation = ['name', 'email', 'message'];
+		var isValid = true;
+
+		validation.map(function(item){
+			if (!formData[item]){
+				isValid = false;
+			}
+		});
+
+		if (!isValid) {
+			showError('All fields are required.');
+		}
+	});
 })(jQuery);

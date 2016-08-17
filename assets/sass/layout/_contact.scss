@@ -114,4 +114,11 @@
 
 	.g-recaptcha {
 		margin: 1em 0;
+		padding-right: 0.5em !important;
+	}
+
+	form[name="contact-form"]{
+		[type="submit"] {
+			margin-right: 0.5em;
+		}
 	}

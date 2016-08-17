@@ -1658,6 +1658,9 @@ input[type="radio"] + label:before {
     border: 0;
     border-radius: 0;
     padding: 0; }
+  .box.error {
+    border-color: #EF476F;
+    background-color: rgba(239, 71, 111, 0.5); }
 
 /* Icon */
 .icon {
@@ -2718,7 +2721,11 @@ button,
       padding: 3em 0 1em 0 ; } }
 
 .g-recaptcha {
-  margin: 1em 0; }
+  margin: 1em 0;
+  padding-right: 0.5em !important; }
+
+form[name="contact-form"] [type="submit"] {
+  margin-right: 0.5em; }
 
 /* Footer */
 #footer .copyright {

@@ -23,4 +23,9 @@
 			border-radius: 0;
 			padding: 0;
 		}
+
+		&.error {
+			border-color: _palette(accent1);
+			background-color: rgba(_palette(accent1), 0.5);
+		}
 	}
