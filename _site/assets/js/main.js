@@ -366,13 +366,13 @@
 
 	$('form[name="contact-form"]').on('submit', function(evt){
 		evt && evt.preventDefault && evt.preventDefault();
+		showError();
 
 		// google captcha
 		if (!grecaptcha || !grecaptcha.getResponse()){
 			showError('You must prove you\'re not a robot.');
 			return;
 		}
-		showError();
 
 		var $form = $(evt.currentTarget),
 			formData = {},
@@ -393,6 +393,18 @@
 
 		if (!isValid) {
 			showError('All fields are required.');
+			return;
 		}
+
+		var $request = $.ajax({
+			url: 'contact.php',
+			type: 'POST',
+			method: 'POST',
+			data: formData
+		}).error(function(){
+			console.log('error', arguments);
+		}).success(function(){
+			console.log('success', arguments);
+		});
 	});
 })(jQuery);

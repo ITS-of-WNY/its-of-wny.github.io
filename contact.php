@@ -1,11 +1,24 @@
 <?php
-// The message
-$message = $_POST['message'];//"Line 1\r\nLine 2\r\nLine 3";
 
-// In case any of our lines are larger than 70 characters, we should use wordwrap()
+// // The message
+$message = $_POST['message'];
+$name = $_POST['name'];
+$email = $_POST['email'];
+
+// // In case any of our lines are larger than 70 characters, we should use wordwrap()
+
+$to      = 'andy.mikulski+test@gmail.com';
+$subject = 'ITS Contact Form Email';
 $message = wordwrap($message, 70, "\r\n");
 
-// Send
-mail('andy.mikulski+test@gmail.com', 'My Subject', $message);
+$headers = 'From: ' . $email . "\r\n" .
+    'Reply-To: ' . $email . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
+if(mail($to, $subject, $message, $headers)){
+	echo 'OK';
+} else {
+	echo 'ERROR';
+}
 
 ?>
