@@ -349,4 +349,22 @@
 
 	});
 
+	$('form[name="contact-form"]').on('submit', function(evt){
+		evt && evt.preventDefault && evt.preventDefault();
+
+		// google captcha
+		if (!grecaptcha || !grecaptcha.getResponse()){
+			alert('you gotta click the robot thing');
+			return;
+		}
+
+		var $form = $(evt.currentTarget),
+			formData = {},
+			serializedForm = $form.serializeArray();
+
+		serializedForm.map(function(data){
+			formData[data.name] = data.value;
+		});
+	});
+
 })(jQuery);

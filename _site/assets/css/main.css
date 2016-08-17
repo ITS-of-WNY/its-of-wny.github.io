@@ -1472,7 +1472,7 @@ form {
       form .field.half.first {
         padding: 0 1em 0 0; }
   form > .actions {
-    margin: 2.5em 0 0 0 !important; }
+    margin: -1em 0 0 0 !important; }
   @media screen and (max-width: 736px) {
     form .field {
       margin: 0 0 1.5em 0; }
@@ -2716,6 +2716,9 @@ button,
   @media screen and (max-width: 736px) {
     #contact > .inner > :nth-child(2n - 1) {
       padding: 3em 0 1em 0 ; } }
+
+.g-recaptcha {
+  margin: 1em 0; }
 
 /* Footer */
 #footer .copyright {
