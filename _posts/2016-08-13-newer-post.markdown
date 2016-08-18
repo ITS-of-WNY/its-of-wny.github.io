@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "The Second Post"
+title: "Looking for Occupational Therapist"
+published: 1
+hiring: ot
 ---
 
-This is a newer post. Woah!
+We're looking for a new OT. Email your resume to [info+jobs@integratedtherapy.org](mailto:info+jobs@integratedtherapy.org) or learn more about the position on our [Employment&nbsp;Opportunities](/jobs.html#ot) page.

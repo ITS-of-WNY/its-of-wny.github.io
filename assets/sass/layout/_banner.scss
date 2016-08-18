@@ -72,7 +72,7 @@
 			}
 
 			header {
-				width: auto;
+				width: 50%;
 
 				> :first-child {
 					width: auto;
@@ -84,6 +84,9 @@
 			}
 
 			.content {
+				width: 50%;
+				white-space: nowrap;
+
 				@include vendor('display', 'flex');
 				@include vendor('align-items', 'center');
 				margin: 0 0 _size(element-margin) 0;

@@ -16,24 +16,12 @@ with the overhead thing:
 ---
 layout: post
 title: "My Second Post"
+published: 1
 ---
 
 Lorem ipsum...
 ```
 
-
-
-Need:
-
-- Photos of staff, offices, whatever
-- little bit more for the history blurb (talk on phone)
-- what's the age range? email said birth to 21, another said birth to 2, one of your services is offered to 3-5, ....
-- need calendar of events (just the weekly schedule is fine too)
-✓ hours of operation
-✓ change upcoming events link to 'about its'
-✓ fax
-✓ info+jobs@integratedtherapy.org
-✓ back to top button on services
 
 ✓ adjust hero image sizing
 ✓ hide mini ITS when nav is not stuck
@@ -41,8 +29,10 @@ Need:
 - address the address on the header
 ✓ `Careers` -> `Employment opportunities`
 
-* ask how many posts they want shown on the page at once
 
 - More color for Areas page
 
 - Perhaps the black lettering on the first page could be changed to blue to match the color of the blocks on our letterhead.  Then have the blue blocks and the tagline blue as well................
+
+* ask how many posts they want shown on the page at once
+- would a link to an archive of the posts be useful? e.g. 'view old news' link would list everything. could also filter out certain posts so only event posts are 'saved', etc

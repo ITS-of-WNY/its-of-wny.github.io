@@ -349,18 +349,18 @@
 
 	});
 
-	var showError = function(message) {
+	var showError = function(message, isActuallySuccess) {
 		var $box = $('form[name="contact-form"]').find('.box.error');
 
 		if (!$box.length){
-			$box = $('<div class="box error"></div>');
+			$box = $('<div class="box ' + (isActuallySuccess ? 'success' : 'error') + '"></div>');
 			$('form[name="contact-form"]').append($box);
 		}
 
 		if (!message) {
 			$box.empty().remove();
 		} else {
-			$box.text(message).show();
+			$box.html(message).show();
 		}
 	};
 
@@ -402,9 +402,13 @@
 			method: 'POST',
 			data: formData
 		}).error(function(){
-			console.log('error', arguments);
-		}).success(function(){
-			console.log('success', arguments);
+			showError('There was an error sending your message. You can try again later, or <a href="mailto:info@integratedtherapy.org">send us an email.</a>');
+		}).success(function(response){
+			if (response && response === 'OK'){
+				showError('Your message has been sent! We will reply as soon as possible.', true);
+			} else {
+				showError('There was an error sending your message. You can try again later, or <a href="mailto:info@integratedtherapy.org">send us an email.</a>');
+			}
 		});
 	});
 })(jQuery);
