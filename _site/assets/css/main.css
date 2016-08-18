@@ -2582,6 +2582,9 @@ article h3 small {
         letter-spacing: 0.25em;
         margin: 0;
         text-transform: uppercase; }
+      @media screen and (max-width: 480px) {
+        #banner > .inner .content {
+          white-space: normal; } }
   #banner.major {
     transition: 0.2s background ease -0.1s;
     height: 75vh;
@@ -2642,6 +2645,9 @@ article h3 small {
         display: none; }
       #banner.major {
         padding: 8em 0 4em 0 ; } }
+
+.homepage ~ #banner > .inner .content p br {
+  display: block; }
 
 /* Main */
 #main {

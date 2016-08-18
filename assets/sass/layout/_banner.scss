@@ -107,6 +107,10 @@
 					margin: 0;
 					text-transform: uppercase;
 				}
+
+				@include breakpoint(xsmall) {
+					white-space: normal;
+				}
 			}
 		}
 
@@ -192,3 +196,8 @@
 			}
 		}
 	}
+
+
+.homepage ~ #banner > .inner .content p br {
+	display: block;
+}
