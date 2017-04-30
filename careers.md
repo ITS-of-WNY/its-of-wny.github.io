@@ -9,143 +9,30 @@ permalink: /careers
   <section id="two">
     <div class="inner">
       <header class="major">
-        <h2>Working with us is great</h2>
+        <h2>Employment Opportunities</h2>
       </header>
-      <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-      <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-      <ul class="actions">
-        <li><a href="/careers" class="button next">Contact</a></li>
-      </ul>
+      <p>Integrated Therapy Services of WNY is always looking for professionals who are seeking a rewarding position working with children and their families. We offer full-time, part-time, and per diem positions in a variety of settings and geographic areas, with attractive benefit packages that may include paid time off, mileage reimbursement, an employer-sponsored retirement plan, continuing education opportunities, and medical/dental options. New graduates are offered experienced mentors and a community of colleagues who are eager to share their talents and skills.</p>
+
+      <p class="info">
+        <h4>Available Positions</h4>
+        <ul>
+          <li>Speech Language Pathologists (CFY candidates may be considered.)</li>
+          <li>Physical Therapists</li>
+          <li>Physical Therapy Assistants with 2+years work experience with children</li>
+          <li>Occupational Therapists</li>
+          <li>Certified Occupational Therapy Assistants</li>
+          <li>Special Education Teachers</li>
+        </ul>
+      </p>
+
+      <p>
+        If you are looking to make a difference and possess the credentials and background for these positions, please contact <a href="mailto:info+jobs@integratedtherapy.org">info+jobs@integratedtherapy.org</a>
+      </p>
+
+      <h4>Student Fieldwork</h4>
+      <p>
+        In addition to these paid professional positions, ITS of WNY also welcomes students who are pursuing their degrees in the fields of occupational therapy, physical therapy, and speech therapy. If you are enrolled in an accredited college or university and are looking for a clinical placement as part of your graduation requirement, ITS of WNY may have a contract in place with your institution, as we currently accept students from many schools throughout the Rochester and Buffalo areas.
+      </p>
     </div>
   </section>
-  <section id="two">
-    <div class="inner">
-      <div class="row">
-        <h3>Occupational Therapist</h3>
-        <div class="8u 12u$(small)">
-          <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-          <ul>
-            <li>Dolor etiam magna etiam.</li>
-            <li>Sagittis lorem eleifend.</li>
-            <li>Felis dolore viverra.</li>
-          </ul>
-          <div class="row">
-            <div class="6u 12u$(small)">
-              <h4>Qualifications</h4>
-              <ul class="alt">
-                <li>Degree in Occupational Therapy</li>
-                <li>At least 6 months experience</li>
-                <li>Good taste in music</li>
-              </ul>
-            </div>
-            <div class="6u 12u$(small)">
-              <h4>&nbsp;</h4>
-              <ul class="alt">
-                <li>Degree in Occupational Therapy</li>
-                <li>At least 6 months experience</li>
-                <li>Good taste in music</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <hr class="major" />
-
-      <div class="row">
-        <h3>Early Intervention</h3>
-        <div class="8u 12u$(small)">
-          <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-          <ul>
-            <li>Dolor etiam magna etiam.</li>
-            <li>Sagittis lorem eleifend.</li>
-            <li>Felis dolore viverra.</li>
-          </ul>
-          <h4>Alternate</h4>
-          <div class="row">
-            <div class="6u 12u$(small)">
-              <ul class="alt">
-                <li>Dolor etiam magna etiam.</li>
-                <li>Sagittis lorem eleifend.</li>
-                <li>Felis feugiat viverra.</li>
-              </ul>
-            </div>
-            <div class="6u 12u$(small)">
-              <ul class="alt">
-                <li>Dolor etiam magna etiam.</li>
-                <li>Sagittis lorem eleifend.</li>
-                <li>Felis feugiat viverra.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <hr class="major" />
-
-      <div class="row">
-        <h3>Early Intervention</h3>
-        <div class="8u 12u$(small)">
-          <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-          <ul>
-            <li>Dolor etiam magna etiam.</li>
-            <li>Sagittis lorem eleifend.</li>
-            <li>Felis dolore viverra.</li>
-          </ul>
-          <h4>Alternate</h4>
-          <div class="row">
-            <div class="6u 12u$(small)">
-              <ul class="alt">
-                <li>Dolor etiam magna etiam.</li>
-                <li>Sagittis lorem eleifend.</li>
-                <li>Felis feugiat viverra.</li>
-              </ul>
-            </div>
-            <div class="6u 12u$(small)">
-              <ul class="alt">
-                <li>Dolor etiam magna etiam.</li>
-                <li>Sagittis lorem eleifend.</li>
-                <li>Felis feugiat viverra.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <hr class="major" />
-
-      <div class="row">
-        <h3>Early Intervention</h3>
-        <div class="8u 12u$(small)">
-          <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-          <ul>
-            <li>Dolor etiam magna etiam.</li>
-            <li>Sagittis lorem eleifend.</li>
-            <li>Felis dolore viverra.</li>
-          </ul>
-          <h4>Alternate</h4>
-          <div class="row">
-            <div class="6u 12u$(small)">
-              <ul class="alt">
-                <li>Dolor etiam magna etiam.</li>
-                <li>Sagittis lorem eleifend.</li>
-                <li>Felis feugiat viverra.</li>
-              </ul>
-            </div>
-            <div class="6u 12u$(small)">
-              <ul class="alt">
-                <li>Dolor etiam magna etiam.</li>
-                <li>Sagittis lorem eleifend.</li>
-                <li>Felis feugiat viverra.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- <hr class="colorful" /> -->
-
 </div>

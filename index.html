@@ -28,21 +28,24 @@ homepage: 1
   <section id="two">
     <div class="inner">
       <header class="major">
-        <h2>Western New York's best agency serving all your OT, PT, SP needs!</h2>
+        <img src="/assets/images/logo.png" />
+        <h2>Building each child's future. One block at a time.</h2>
       </header>
-      <p>ITS of WNY has professionals available for short-term projects, including staffing for kindergarten screenings in local schools, performing program and related service audits when requested by district administrators, or providing in-service training to local childcare centers and special interest groups.</p>
+      <p>ITS of WNY is dedicated to providing high quality therapy and educational services that develop the skills and abilities to enhance the overall development of special-needs children in their home, school, and community.</p>
     </div>
   </section>
+
+
 
   <!-- One -->
   <section id="one" class="tiles">
     <article>
       <span class="image">
-        <img src="/assets/images/pic01.jpg" alt="" />
+        <img src="/assets/images/pic03.jpg" alt="" />
       </span>
       <header class="major">
-        <h3><a href="/areas.html" class="link">Areas Served</a></h3>
-        <p>From Erie County to Livingston County</p>
+        <h3><a href="/about.html" class="link">About ITS</a></h3>
+        <p>A local business since 1996</p>
       </header>
     </article>
     <article>
@@ -65,17 +68,18 @@ homepage: 1
     </article>
     <article>
       <span class="image">
-        <img src="/assets/images/pic03.jpg" alt="" />
+        <img src="/assets/images/pic01.jpg" alt="" />
       </span>
       <header class="major">
-        <h3><a href="/about.html" class="link">About ITS</a></h3>
-        <p>A local business since 1996</p>
+        <h3><a href="/areas.html" class="link">Areas Served</a></h3>
+        <p>Serving five counties in Western&nbsp;New&nbsp;York</p>
       </header>
     </article>
   </section>
 
   {% assign numPosts = site.posts | size %}
-  {% if numPosts > 0 %}
+  {% assign display = false %}
+  {% if display %}
     <section id="three" class="recent-updates">
       <div class="inner">
         <header class="major">

@@ -18,7 +18,7 @@ title: Areas We Serve
             <th>County</th>
             <th>Early Intervention</th>
             <th>Preschool Services</th>
-            <th>School Services</th>
+            <th>School-based Services</th>
           </tr>
         </thead>
         <tbody>
@@ -56,8 +56,8 @@ title: Areas We Serve
       </table>
 
       <div class="box">
-        Interested in learning more about the services we offer?
-        <a href="/services" class="button next right">Services and Programs</a>
+        Looking to join our WNY-based team?
+        <a href="/careers" class="button next right">Employment Opportunities</a>
       </div>
     </div>
   </section>

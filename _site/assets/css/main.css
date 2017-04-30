@@ -1441,7 +1441,8 @@ header.major {
       height: 2px;
       margin: 0.325em 0 0.5em 0;
       opacity: 0.35;
-      width: 100%; }
+      width: 100%;
+      visibility: hidden; }
   header.major > p {
     font-size: 0.7em;
     font-weight: 500;
@@ -1449,6 +1450,13 @@ header.major {
     margin-bottom: 0;
     text-transform: uppercase;
     min-height: 3.4em; }
+  header.major img {
+    max-width: 3em;
+    margin-right: 1em; }
+  header.major h2 {
+    display: inline-block;
+    position: relative;
+    top: -0.5em; }
   body.is-ie header.major > :first-child:after {
     max-width: 9em; }
   body.is-ie header.major > h1:after {
@@ -1456,9 +1464,11 @@ header.major {
 @media screen and (max-width: 1280px) {
   header.major > p {
     font-size: 0.8em; } }
-@media screen and (max-width: 736px) {
-  header.major > p br {
-    display: none; } }
+@media screen and (max-width: 980px) {
+  header.major h2 {
+    display: block;
+    clear: both;
+    top: 0 !important; } }
 
 /* Form */
 form {
@@ -2138,7 +2148,7 @@ button,
       .tiles article:nth-child(6n - 4):before {
         background-color: #FFD166; }
     .tiles article:nth-child(6n - 3) {
-      background-position: center top; }
+      background-position: 50% 40%; }
       .tiles article:nth-child(6n - 3):before {
         background-color: #06D6A0; }
     .tiles article:nth-child(6n - 2):before {
@@ -2453,8 +2463,7 @@ button,
         padding-right: 4.25em !important; } }
   @media screen and (max-width: 1280px) {
     #header nav a[href="#menu"] {
-      padding-right: 4em !important;
-      padding-top: 0.5em; }
+      padding-right: 4em !important; }
       #header nav a[href="#menu"]:last-child {
         padding-right: 4.5em !important; } }
   @media screen and (max-width: 736px) {
@@ -2664,10 +2673,11 @@ article h3 small {
 
 header.major .tagline {
   margin-bottom: 3em;
-  font-size: 1.3em;
+  font-size: 1.13em;
   text-transform: none;
   letter-spacing: normal;
-  font-weight: 300; }
+  font-weight: 300;
+  line-height: 1.5em; }
 
 /* Main */
 #main {
