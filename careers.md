@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Employment Opportunities
-permalink: /jobs
+permalink: /careers
 ---
 
 <!-- Main -->
@@ -21,7 +21,7 @@ permalink: /jobs
   <section id="two">
     <div class="inner">
       <div class="row">
-        <h3>Early Intervention</h3>
+        <h3>Occupational Therapist</h3>
         <div class="8u 12u$(small)">
           <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
           <ul>
@@ -29,20 +29,21 @@ permalink: /jobs
             <li>Sagittis lorem eleifend.</li>
             <li>Felis dolore viverra.</li>
           </ul>
-          <h4>Alternate</h4>
           <div class="row">
             <div class="6u 12u$(small)">
+              <h4>Qualifications</h4>
               <ul class="alt">
-                <li>Dolor etiam magna etiam.</li>
-                <li>Sagittis lorem eleifend.</li>
-                <li>Felis feugiat viverra.</li>
+                <li>Degree in Occupational Therapy</li>
+                <li>At least 6 months experience</li>
+                <li>Good taste in music</li>
               </ul>
             </div>
             <div class="6u 12u$(small)">
+              <h4>&nbsp;</h4>
               <ul class="alt">
-                <li>Dolor etiam magna etiam.</li>
-                <li>Sagittis lorem eleifend.</li>
-                <li>Felis feugiat viverra.</li>
+                <li>Degree in Occupational Therapy</li>
+                <li>At least 6 months experience</li>
+                <li>Good taste in music</li>
               </ul>
             </div>
           </div>

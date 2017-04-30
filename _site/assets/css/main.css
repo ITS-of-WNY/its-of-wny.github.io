@@ -1283,7 +1283,7 @@ body {
 /* Type */
 body, input, select, textarea {
   font-family: "Roboto", Helvetica, sans-serif;
-  font-size: 17pt;
+  font-size: 16pt;
   font-weight: 300;
   letter-spacing: 0.025em;
   line-height: 1.65; }

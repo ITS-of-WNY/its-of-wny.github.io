@@ -19,20 +19,20 @@ title: Services and Programs
       <div class="row">
         <div class="6u 6u(medium) 12u$(small)">
           <h3>Early Intervention</h3>
-          <p>For children who demonstrate or have a high probability of developmental delays. Speech, occupational, and physical therapies are available. <a href="#ei" class="scrolly">Learn&nbsp;More&nbsp;→</a></p>
+          <p>For infants and toddlers who demonstrate or have a high probability of developmental delays. Home and community based evaluations and direct services are offered under the guidelines established by the NYSDOH Bureau of Early Intervention. <a href="#ei" class="scrolly">Learn&nbsp;More&nbsp;→</a></p>
         </div>
         <div class="6u$ 6u$(medium) 12u$(small)">
           <h3>Preschool Services</h3>
-          <p>In-school OT, PT, and Speech services for children aged 3-5 who have met their district's requirements. <a href="#preschool" class="scrolly">Learn&nbsp;More&nbsp;→</a></p>
+          <p>OT, PT, and Speech services are provided for children aged 3-5 who have meet their school District’s eligibility requirements. Services are provided at home, in the community, or at the child’s preschool program. <a href="#preschool" class="scrolly">Learn&nbsp;More&nbsp;→</a></p>
         </div>
         <!-- Break -->
         <div class="4u 6u(medium) 12u$(small)">
           <h3>School-based services</h3>
-          <p>Our staff work alongside district personnel to provide services to children in a school setting. <a href="#school" class="scrolly">Learn&nbsp;More&nbsp;→</a></p>
+          <p>Our staff work alongside district personnel to provide services to children in their school setting. <a href="#school" class="scrolly">Learn&nbsp;More&nbsp;→</a></p>
         </div>
         <div class="4u 6u(medium) 12u$(small)">
           <h3>Other services</h3>
-          <p>Professionals are available for short-term projects such as temporary staffing, program/service audits, or in-service trainings. <a href="#other" class="scrolly">Learn&nbsp;More&nbsp;→</a></p>
+          <p>Staff are available to provide professional training to interested groups, staffing for kindergarten screenings,  program/service audits, and independent evaluations. <a href="#other" class="scrolly">Learn&nbsp;More&nbsp;→</a></p>
         </div>
         <div class="4u 6u(medium) 12u$(small)">
           <h3>Play Groups</h3>
@@ -52,24 +52,24 @@ title: Services and Programs
             <div class="12u$">
               <ul class="alt">
                 <li>For children ages birth &ndash; 2</li>
-                <li>Provided in Erie, Genesee, Orleans, and Wyoming Counties</li>
-                <li>For children who demonstrate or are expected to have developmental delays</li>
-                <li>Primarily an in-home service</li>
-                <li>Speech therapy, occupational therapy, physical therapy available</li>
-                <li>Teachers of the deaf and/or visually impaired available</li>
+                <li>Provided in Erie, Genesee, Orleans, and Wyoming Counties through an agreement with NYS</li>
+                <li>For children who demonstrate or are at risk for developmental delays</li>
+                <li>Evaluations and services provided in the child’s natural environment</li>
+                <li>Special Instruction, speech therapy, occupational therapy, and physical therapy are available</li>
+                <li>Teachers of the Deaf and Teachers of the Visually Impaired are available</li>
               </ul>
             </div>
           </div>
         </div>
         <div class="8u 12u$(small)">
           <br />
-          <p>We are contracted with the NYS Dept of Health to provide birth-2 services in Erie, Gen., Orleans and Wyoming Counties. This program is designed to meet the needs of families and their children who demonstrate developmental delays or who are diagnosed with a condition with a high probability of developmental delay. Referrals come from parents, caregivers, and the medical community through the health departments and youth bureaus in the counties in which the child resides.</p>
+          <p>The Early Intervention Program is a public program for infants and toddlers with special needs. Children with certain diagnosed conditions that lead to developmental delays are eligible for this program. Children with no diagnosis who have delays in development may be eligible if their delays are serious enough. Parents are encouraged to contact the NYS Early Intervention Program at (518) 473-7016 for assistance with the referral process. Once evaluated by an approved evaluator, if a child is determined eligible by the municipality to participate in the program, services are provided at no cost to families. The county arranges the services to be provided and then chooses the provider based on the needs of the child and family. The child’s health insurance may be used to cover some program costs, but all other costs for EIP services are paid by the county and New York State. The EIP covers the cost of early intervention services only. It does not pay for daycare or other fees charged by community settings.</p>
 
-          <p>Early intervention services that ITS of WNY provide include multi-disciplinary evaluations and direct therapy which may include speech therapy, occupational therapy, and physical therapy as well as special instruction by certified special education teachers. The agency also offers services by a teacher of the deaf and a teacher of the visually impaired if a child presents with vision or hearing difficulties.</p>
+          <p>ITS of WNY holds a provider agreement with the NYS Dept of Health to provide Early Intervention services in Erie, Genesee, Orleans and Wyoming Counties. Our services include multi-disciplinary evaluations and direct therapy which may include speech therapy, occupational therapy, and physical therapy as well as special instruction by certified special education teachers. The agency also offers services by a teacher of the deaf and a teacher of the visually impaired if a child presents with vision or hearing difficulties.</p>
 
-          <p>Services primarily take place in a child's home, daycare center, or a caregiver's home, at the direction of the child's family.</p>
+          <p>Services primarily take place in a child's home, daycare center, or a caregiver's home, at the direction of the child's family. In addition to individual services offered in the child’s natural setting, ITS of WNY offers services in a variety of formats, including developmental group intervention and parent/child groups. These groups are offered for those children and their families who may benefit from services that take place in a group setting alongside peers.Groups are held at our office or at a nearby neighborhood or community site, as determined  by the child’s Early Intervention team and as approved on the Individualized Family Service Plan, by the child’s municipality.</p>
+
           <a href="#services" class="button small scrolly icon fa-angle-up">Back to Top</a>
-
 
         </div>
       </div>
@@ -87,15 +87,17 @@ title: Services and Programs
                 <li>Provided in Erie, Genesee, and Wyoming Counties</li>
                 <li>Requires school district approval</li>
                 <li>Follows the school calendar of each district</li>
-                <li>Services take place in the child's school</li>
+                <li>Services take place in a variety of settings</li>
               </ul>
             </div>
           </div>
         </div>
         <div class="8u 12u$(small)">
           <br />
-          <p>ITS of WNY holds contracts with Genesee, Erie and Wyoming Counties to provide OT, PT and speech services for children aged 3-5, who have been approved by their local school district's committee on preschool education.</p>
-          <p>Services are delivered during the school year,  follow the school calendar of each district, and are designed to support the child's educational program. Services take place in a child's home, nursery school, childcare center,or universal pre-K classroom, as deemed appropriate by the child's committee on preschool education.</p>
+          <p>ITS of WNY holds contracts with Genesee, Erie and Wyoming Counties to provide OT, PT and speech services for children aged 3-5, who have been approved by their local school district's Committee on Preschool Special Education.</p>
+
+          <p>Services are provided during the school year, follow the school calendar of each district, and are designed to support the child's educational program. Services take place in a child's home, nursery school, child-care center,or universal pre-K classroom, as deemed appropriate by the child's Committee on Preschool Special Education.</p>
+
           <p>ITS of WNY therapists are also available to provide extended school year services, if approved by the school district.</p>
           <a href="#services" class="button small scrolly icon fa-angle-up">Back to Top</a>
         </div>
@@ -121,7 +123,7 @@ title: Services and Programs
         </div>
         <div class="8u 12u$(small)">
           <br />
-          <p>ITS of WNY holds more than 15 school district contracts in a large geograghic area, including schools operating in Genesee, Orleans, Erie, Wyoming, and Livingston Counties. Our therapists work within each school building alongside district personnel in order to collaborate with other professionals while providing quality services to students in their home districts.</p>
+          <p>ITS of WNY holds more than 15 school district contracts in a large geographic area, including schools operating in Genesee, Orleans, Erie, Wyoming, and Livingston Counties. Our therapists work within each school building alongside district personnel in order to collaborate with other professionals, while providing quality services to students in their home districts.</p>
           <a href="#services" class="button small scrolly icon fa-angle-up">Back to Top</a>
         </div>
       </div>
@@ -135,16 +137,16 @@ title: Services and Programs
           <div class="row">
             <div class="12u$">
               <ul class="alt">
-                <li>Short-term staffing available</li>
-                <li>Provides in-service training</li>
-                <li>Service audits</li>
+                <li>Independent evaluations for school-aged students</li>
+                <li>In-service training</li>
+                <li>Program reviews/audits</li>
               </ul>
             </div>
           </div>
         </div>
         <div class="8u 12u$(small)">
           <br />
-          <p>ITS of WNY has professionals available for short-term projects, including staffing for kindergarten screenings in local schools, performing program and related service audits when requested by district administrators, or providing in-service training to local childcare centers and special interest groups. Our experienced staff...</p>
+          <p>ITS of WNY professionals are available for short-term projects, including staffing for kindergarten screenings in local schools, program and related service audits, and independent related service evaluations when requested by school district administrators. Our knowledgeable, experienced staff are also available to provide trainings to local childcare centers, schools and special interest groups. </p>
           <a href="#services" class="button small scrolly icon fa-angle-up">Back to Top</a>
         </div>
       </div>
@@ -168,7 +170,9 @@ title: Services and Programs
         </div>
         <div class="8u 12u$(small)">
           <br />
-          <p>Weekly parent/child groups for those children and their families who may benefit from services that take place in a group setting alongside peers. These groups are held at our office or at a nearby neighborhood or community site.</p>
+          <p>In addition to individual services offered in the child’s natural setting, ITS of WNY offers services in a variety of formats, including developmental group intervention and parent/child groups. These groups are offered for those children and their families who may benefit from services that take place in a group setting alongside peers.</p>
+
+          <p>Groups are held at our office or at a nearby neighborhood or community site, as determined by the child’s Early Intervention team and as approved on the Individualized Family Service Plan, by the child’s municipality.</p>
           <a href="#services" class="button small scrolly icon fa-angle-up">Back to Top</a>
         </div>
       </div>
