@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule !^_site/ /_site%{REQUEST_URI} [L,R=301]
