@@ -14,7 +14,8 @@
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: repeat-x;
-		background-size: auto 100%;
+		background-size: -webkit-cover;
+		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
 		height: 60vh;
@@ -54,6 +55,15 @@
 		h1 {
 			font-size: 3.25em;
 			color: #fff;
+			text-shadow: 0px 4px 4px rgba(0, 85, 123, 0.5), 0px 0px 4px rgba(0, 0, 0, 0.4);
+		}
+		h2 {
+			margin: 0;
+			padding: 0;
+
+			+ .tagline {
+				margin-bottom: 2em;
+			}
 		}
 
 		> .inner {
@@ -72,8 +82,6 @@
 			}
 
 			header {
-				width: 50%;
-
 				> :first-child {
 					width: auto;
 
@@ -115,6 +123,9 @@
 		}
 
 		&.major {
+			background-size: -webkit-cover;
+			background-size: cover;
+
 			transition: 0.2s background ease -0.1s;
 			height: 75vh;
 			min-height: 30em;
@@ -200,4 +211,12 @@
 
 .homepage ~ #banner > .inner .content p br {
 	display: block;
+}
+
+header.major .tagline {
+    margin-bottom: 3em;
+    font-size: 1.3em;
+    text-transform: none;
+    letter-spacing: normal;
+    font-weight: 300;
 }

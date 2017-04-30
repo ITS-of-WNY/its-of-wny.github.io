@@ -7,12 +7,12 @@ homepage: 1
 <section id="banner" class="major">
   <div class="inner">
     <header class="major">
-      <h1>Integrated Therapy Services</h1>
+      <h1>Integrated Therapy Services of WNY</h1>
+      <p class="tagline">Not all kids develop the same way.<br />Some need extra help.<br />That's why we're here.</p>
     </header>
     <div class="content">
       <div>
-        <!-- <p>The best place for all your<br />integrated therapy services needs!</p> -->
-        <p><a href="https://goo.gl/maps/UV3pho822uz" target="_blank">25 Liberty St #5<br />
+        <p><a href="https://goo.gl/maps/UV3pho822uz" target="_blank">25 Liberty St, Suite 5<br />
           Batavia, NY 14020</a><br /><a href="tel:+15853431840">(585) 343-1840</a></p>
       </div>
       <ul class="actions">
@@ -28,10 +28,9 @@ homepage: 1
   <section id="two">
     <div class="inner">
       <header class="major">
-        <h2>Western New York's best agency serving all your OT, PT, SP, and BBQ needs!</h2>
+        <h2>Western New York's best agency serving all your OT, PT, SP needs!</h2>
       </header>
-      <p>ITS of WNY has professionals available for short-term projects, including staffing for kindergarten screenings in local schools, performing program and related service audits when requested by district administrators, or providing in-service training to local childcare centers and special interest groups. Our experienced staff...</p>
-      <!-- <hr class="major" style="border-color: #232323" /> -->
+      <p>ITS of WNY has professionals available for short-term projects, including staffing for kindergarten screenings in local schools, performing program and related service audits when requested by district administrators, or providing in-service training to local childcare centers and special interest groups.</p>
     </div>
   </section>
 
@@ -70,34 +69,36 @@ homepage: 1
       </span>
       <header class="major">
         <h3><a href="/about.html" class="link">About ITS</a></h3>
-        <p>We work hard, we play hard</p>
+        <p>A local business since 1996</p>
       </header>
     </article>
   </section>
 
-
-  <section id="three" class="recent-updates">
-    <div class="inner">
-      <header class="major">
-        <h2>Recent Updates</h2>
-      </header>
-      {% for post in site.posts %}
-        {% if post.published == 1 %}
-          <hr />
-          <article>
-            <header>
-              {% if post.hiring %}
-                <a class="button small right" href="/jobs.html#{{ post.hiring }}">Learn More</a>
-              {% endif %}
-              <h3>
-                <a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a>
-                <small>Posted {{ post.date | date: '%B %d, %Y' }}</small>
-              </h3>
-            </header>
-            <p>{{ post.content }}</p>
-          </article>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </section>
+  {% assign numPosts = site.posts | size %}
+  {% if numPosts > 0 %}
+    <section id="three" class="recent-updates">
+      <div class="inner">
+        <header class="major">
+          <h2>Recent Updates</h2>
+        </header>
+        {% for post in site.posts %}
+          {% if post.published == 1 %}
+            <hr />
+            <article>
+              <header>
+                {% if post.hiring %}
+                  <a class="button small right" href="/jobs.html#{{ post.hiring }}">Learn More</a>
+                {% endif %}
+                <h3>
+                  <a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a>
+                  <small>Posted {{ post.date | date: '%B %d, %Y' }}</small>
+                </h3>
+              </header>
+              <p>{{ post.content }}</p>
+            </article>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
 </div>

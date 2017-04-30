@@ -10,7 +10,7 @@ title: Areas We Serve
       <header class="major">
         <h2>Areas We Serve</h2>
       </header>
-      <p>ITS was reorganized in 2011 as ITS of WNY, OT/PT/SLP, PLLC. We currently have 53 employees on staff.</p>
+      <p>ITS of WNY providers can be found working in 3 distinct programs in a 5 county area. With over 50 therapists, we can match geographic preferences, skills, and program interests with staff who desire to work in specific locales or programs.</p>
 
       <table class="areas-table">
         <thead>
@@ -56,11 +56,8 @@ title: Areas We Serve
       </table>
 
       <div class="box">
-        <p>
-          Interested in learning more about the services we offer?
-          <a href="/services" class="button next right">Services and Programs</a>
-          <div class="clearfix"></div>
-        </p>
+        Interested in learning more about the services we offer?
+        <a href="/services" class="button next right">Services and Programs</a>
       </div>
     </div>
   </section>
