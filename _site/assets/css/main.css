@@ -2332,9 +2332,9 @@ button,
     padding: 0 1.5em; }
     #header .logo img {
       left: 0;
-      max-height: 3.5em;
+      max-height: 80%;
       position: relative;
-      top: 0.2em; }
+      top: 10%; }
     #header .logo strong {
       color: #333;
       display: block;
@@ -2647,6 +2647,7 @@ article h3 small {
           margin-left: 0;
           margin-bottom: 2em; }
       #banner.major {
+        background-position: 60% 0px;
         height: auto;
         min-height: 0;
         max-height: none; } }

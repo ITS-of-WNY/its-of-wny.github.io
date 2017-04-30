@@ -15,7 +15,7 @@ title: About Us
       <div class="box">
         We reorganized in 2011 as ITS of WNY, OT/PT/SLP, PLLC. We currently have 53 employees on staff.
       </div>
-      <p><span class="image right"><img src="/assets/images/pic09.jpg" alt=""></span>For over 20 years, ITS of WNY has strived to provide the highest quality of therapies and instructional services to meet the needs of children and has become a leader in the field. We employ dedicated, experienced therapists and teachers to work in programs designed to address delays and other developmental concerns in children from birth through 21 years of age.</p>
+      <p><span class="image right"><img src="/assets/images/pic05.jpg" alt=""></span>For over 20 years, ITS of WNY has strived to provide the highest quality of therapies and instructional services to meet the needs of children and has become a leader in the field. We employ dedicated, experienced therapists and teachers to work in programs designed to address delays and other developmental concerns in children from birth through 21 years of age.</p>
       <hr class="major" />
       <div class="box">
           Interested in learning more about the services we offer?

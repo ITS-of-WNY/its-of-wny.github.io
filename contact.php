@@ -6,9 +6,8 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 
 // // In case any of our lines are larger than 70 characters, we should use wordwrap()
-
-$to      = 'andy.mikulski+test@gmail.com';
-$subject = 'ITS Contact Form Email';
+$to      = 'info+form@integratedtherapy.org';
+$subject = 'ITS Website Contact Form Email';
 $message = wordwrap($message, 70, "\r\n");
 
 $headers = 'From: ' . $email . "\r\n" .
