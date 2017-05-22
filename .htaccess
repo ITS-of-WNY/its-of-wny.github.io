@@ -1,2 +1,8 @@
-RewriteEngine on
-RewriteRule ^/?_site.* / [P]
+RewriteEngine on 
+RewriteCond %{HTTP_HOST} ^(www.)?its-of-wny.org$ 
+RewriteCond %{REQUEST_URI} !^/_site/ 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(.*)$ /_site/$1 
+RewriteCond %{HTTP_HOST} ^(www.)?its-of-wny.org$ 
+RewriteRule ^(/)?$ _site/index.html [L]
