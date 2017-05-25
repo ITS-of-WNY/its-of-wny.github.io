@@ -12,6 +12,13 @@
 		background: _palette(accent5);
 		color: #fff;
 
+		display: flex;
+		flex-direction: row;
+
+		section {
+			color: inherit;
+		}
+
 		* {
 			color: #fff !important;
 		}
@@ -120,5 +127,37 @@
 	form[name="contact-form"]{
 		[type="submit"] {
 			margin-right: 0.5em;
+		}
+	}
+
+
+	.footer-contact {
+		background: _palette(accent5);
+		&, * {
+			color: #fff !important;
+		}
+
+		&.alt {
+			background: #fff;
+			&, * {
+				color: #333 !important;
+			}
+		}
+
+		.inner {
+			padding: 4em 0 !important;
+		}
+
+		.section-container {
+			display: flex;
+			flex-direction: row;
+
+			section {
+				flex-grow: 1;
+			}
+
+			@include breakpoint(small) {
+				flex-direction: column;
+			}
 		}
 	}

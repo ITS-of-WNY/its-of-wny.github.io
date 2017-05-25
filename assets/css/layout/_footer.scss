@@ -7,6 +7,16 @@
 /* Footer */
 
 	#footer {
+		background-color: #fff;
+		color: #333;
+
+		&.alt {
+			background-color: _palette(accent5);
+			&, * {
+				color: #fff !important;
+			}
+		}
+
 		.copyright {
 			font-size: 0.8em;
 			list-style: none;
@@ -17,6 +27,7 @@
 				color: _pallete(bg);
 				display: inline-block;
 				line-height: 1;
+				list-style: none;
 				margin-left: 1em;
 				padding-left: 1em;
 
@@ -36,6 +47,7 @@
 					margin-left: 0;
 					padding-left: 0;
 					line-height: inherit;
+					list-style: none;
 				}
 			}
 		}
