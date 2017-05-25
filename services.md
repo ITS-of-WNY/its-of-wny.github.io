@@ -149,7 +149,7 @@ title: Services and Programs
       <hr class="major" />
 <!-- end other services -->
 
-      <a href="/areas" class="button next right">Areas Served</a>
+      <a href="/areas.html" class="button next right">Areas Served</a>
       <div class="clearfix"></div>
     </div>
   </section>

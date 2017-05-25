@@ -57,7 +57,7 @@ title: Areas We Serve
 
       <div class="box">
         Looking to join our WNY-based team?
-        <a href="/careers" class="button next right">Employment Opportunities</a>
+        <a href="/careers.html" class="button next right">Employment Opportunities</a>
       </div>
     </div>
   </section>
