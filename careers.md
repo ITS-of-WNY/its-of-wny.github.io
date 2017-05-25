@@ -16,7 +16,7 @@ permalink: /careers
       <p class="info">
         <h4>Available Positions</h4>
         <ul>
-          <li>Speech Language Pathologists (CFY candidates may be considered.)</li>
+          <li>Speech Language Pathologists</li>
           <li>Physical Therapists</li>
           <li>Physical Therapy Assistants with 2+years work experience with children</li>
           <li>Occupational Therapists</li>
@@ -31,7 +31,7 @@ permalink: /careers
 
       <h4>Student Fieldwork</h4>
       <p>
-        In addition to these paid professional positions, ITS of WNY also welcomes students who are pursuing their degrees in the fields of occupational therapy, physical therapy, and speech therapy. If you are enrolled in an accredited college or university and are looking for a clinical placement as part of your graduation requirement, ITS of WNY may have a contract in place with your institution, as we currently accept students from many schools throughout the Rochester and Buffalo areas.
+        In addition to these paid professional positions, ITS of WNY also welcomes students who are pursuing their degrees in the fields of occupational therapy and physical therapy. If you are enrolled in an accredited college or university and are looking for a clinical placement as part of your graduation requirement, ITS of WNY may have a contract in place with your institution, as we currently accept students from many schools throughout the Rochester and Buffalo areas.
       </p>
     </div>
   </section>
